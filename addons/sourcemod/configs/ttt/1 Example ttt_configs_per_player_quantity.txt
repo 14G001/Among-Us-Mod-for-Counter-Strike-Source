@@ -1,0 +1,42 @@
+// FORMAT:
+
+//|      Number     |     Number    |  Number of hostages|Number of hostages	| 	     Hostage          	     |  Hostage  |
+//|        of       |       of      |        in the map at the   		|         that must die              |  health   |
+//|     players     |   impostors   |         beggining of the    		|         for impostors       	     |  amount   |
+//|                 |               |               round              		|             to win         	     |		 |
+//|-----------------|---------------|-------------------------------------------|------------------------------------|-----------|
+//FROM 0 TO 4 PLAYERS THE FOLLOWING LINE WILL BE THE CONFIGS:
+  |    4   	    |      1  	    |      	       2    	                |               2                    |   100     |
+//FROM 5 TO 8 PLAYERS THE FOLLOWING LINE WILL BE THE CONFIGS:
+  |    8            |       1       |       	       4    	                |               2     	             |   200     |
+//FROM 9 TO 11 PLAYERS THE FOLLOWING LINE WILL BE THE CONFIGS:
+  |   11            |      2  	    |      	       6    	                |               2     	             |   300     |
+//THE SAME FOR ALL THE FOLLOWING LINES:
+  |   16            |      4   	    |      	       8  	                |               3     	             |   300     |
+  |   20            |      5   	    |      	       8   	                |               3      	             |   500     |
+  |   28            |      5  	    |      	       8    	                |               3     	             |   700     |
+  |   36            |      7  	    |      	       8    	                |               3    	             |   500     |
+  |   42            |      8 	    |      	      10      	                |               3     	             |   500     |
+// THE LAST LINE FROM 43 TO 65 PLAYERS (MAXIMUM OF CS:S).
+
+// IS THE SAME IF YOU DO THE FOLLOWING:
+
+// 4 1 2 2 100
+// 8 1 4 2 200
+// 11 2 6 2 300
+// 16 3 8 3 300
+// 20 3 8 3 500
+// 28 4 8 3 700
+// 36 4 8 3 500
+// 42 5 10 3 500
+
+// ALWAYS THE VALUE OF Number Of Players HAS TO BE FROM LOWEST TO GREATEST ON EACH LINE.
+
+// IT IS IMPORTANT THAT THE NUMBERS ARE SEPARATED BY '|' O ' ' (SPACES). IF YOU TRY TO SEPARATE THEM WITH ANOTHER TYPE OF
+// CHARACTERS IT WILL NOT WORK AND YOU WILL NOT BE ABLE TO PLAY WELL ON THE SERVER. IT IS IMPORTANT THAT EACH SETTING PER
+// NUMBER OF PLAYERS BE ON A DIFFERENT LINE.
+
+// RESPECT TO THE FILE WITH THE COORDINATES IN WHICH THE HOSTAGES MAY SPAW, WHEN ADDING THE VALUES, IT MUST BE DONE IN THE
+// SAME WAY. TO WRITE TEXT OF ANY KIND IN THE CONFIGURATION FILES, LIKE TO REMEMBER SOMETHING, YOU MUST DO THE FOLLOWING: 
+// WRITE "//" AT THE BEGINNING OF THE TEXT LINE. THEN YOU CAN WRITE ANYTHING. HOWEVER, TRY NOT TO WRITE TOO MANY CHARACTERS 
+// ON A SINGLE LINE.

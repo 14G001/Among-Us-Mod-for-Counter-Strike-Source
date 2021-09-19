@@ -1,0 +1,5 @@
+"MonitorScreen"
+{
+	"$basetexture" "overlays/ttt/impostors_overlay"
+  	"$translucent" 1
+}

@@ -1,0 +1,43 @@
+// FORMAT:
+
+//|  Spawn   |  Spawn   |   Spawn  |Hostage|Hostage|Hostage|
+//|position X|position Y|position Z|angle X|angle Y|angle Z|
+
+// 1st Spawn option
+  |   1222   |  -1515   |    171   |   0   |   90  |   0   |
+// 2nd Spawn option
+  |    993   |  -1064   |    480   |   0   |   0   |   0   |
+// etc
+  |   1394   |   -46    |    352   |   0   |   0   |   0   |
+  |   903    |  -515    |    336   |   0   |  -90  |   0   |
+  |   952    |  -238    |    181   |   0   |  180  |   0   |
+  |   1527   |  -316    |    624   |   0   |   0   |   0   |
+  |   2508   |  -390    |    440   |   0   |   90  |   0   |
+  |   300    |  -1968   |    403   |   0   |   45  |   0   |
+  |    11    |  -511    |    232   |   0   | -130  |   0   |
+//  |  -1357   |   1046   |    224   |   0   |   0   |   0   | 
+// I REMOVE THE PREVIOUS BECAUSE IT OBSTRUCT A CT SPAWN AND CRASHES
+// THE SERVER.
+// TO REPLACE IT I PUT THE FOLLOWING IN A SIMILAR POSITION:
+//  |  -1479   |   814    |    288   |   0   |   40  |   0   |
+// IN THE END, THE FOLLOWING CONFIGURATION ALSO GENERATES ERRORS:
+// I STAY WITH THE OTHERS.
+  |   276    |   186    |    356   |   0   |  180  |   0   |
+  |   682    |   1056   |    187   |   0   |  180  |   0   |
+  |   327    |   1804   |    356   |   0   |   80  |   0   |
+
+// LAST VALUE 
+//      TO 
+//MAX_PLAYER_QUANTITY
+//(USUALLY 32 OR 64 IN CSS
+//DEPENDING ON YOUR SERVER
+// CONFIGURATION)
+
+// IT IS IMPORTANT THAT THE NUMBERS ARE SEPARATED BY '|' O ' ' (SPACES). IF YOU TRY TO SEPARATE THEM WITH ANOTHER TYPE OF
+// CHARACTERS IT WILL NOT WORK AND YOU WILL NOT BE ABLE TO PLAY WELL ON THE SERVER. IT IS IMPORTANT THAT EACH SETTING PER
+// NUMBER OF PLAYERS BE ON A DIFFERENT LINE.
+
+// RESPECT TO THE FILE WITH THE COORDINATES IN WHICH THE HOSTAGES MAY SPAW, WHEN ADDING THE VALUES, IT MUST BE DONE IN THE
+// SAME WAY. TO WRITE TEXT OF ANY KIND IN THE CONFIGURATION FILES, LIKE TO REMEMBER SOMETHING, YOU MUST DO THE FOLLOWING: 
+// WRITE "//" AT THE BEGINNING OF THE TEXT LINE. THEN YOU CAN WRITE ANYTHING. HOWEVER, TRY NOT TO WRITE TOO MANY CHARACTERS 
+// ON A SINGLE LINE.

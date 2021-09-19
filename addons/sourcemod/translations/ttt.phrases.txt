@@ -1,0 +1,650 @@
+"Phrases"
+{	
+	"Hostage spawns file error" 
+	{
+	"en" "Can't find hostage spawn configs file for this map."
+	"es" "No se ha podido encontrar el archivo de puntos de aparicion de rehenes para este mapa."
+	}
+
+	"Round configs file error" 
+	{
+	"en" "Can't find configs per player quantity file for this map."
+	"es" "No se ha podido encontrar el archivo de configuraciones por cantidad de jugadores."
+	}
+
+	"Rules advertisment 1" 
+	{
+	"en" "To see the rules and commands of TTT mode, write"
+	"es" "Para ver las reglas y comandos del modo TTT, escribir"
+	}
+
+	"Rules advertisment 2" 
+	{
+	"en" "in the game chat."
+	"es" "en el chat del juego."
+	}
+
+	"BAN - innocent kill/hurt innocent chat msg" 
+	{
+	"en" "You have been banned for killing or hurting too many innocents being an innocent."
+	"es" "Has sido baneado por matar o lastimar demasiados inocentes siendo inocente."
+	}
+
+	"BAN - innocent kill/hurt innocent msg" 
+	{
+	"en" "Reason: killing or hurting too many innocents being an innocent."
+	"es" "Razon: matar o lastimar demasiados inocentes siendo inocente."
+	}
+
+	"BAD ADMIN" 
+	{
+	"en" "IF YOU WEREN'T ADMIN, YOU WOULD HAVE ALREADY BEEN BANNED AUTOMATICALLY! YOU SHOULD KNOW THE RULES OF THE GAME IF YOU ARE ADMIN! ):<"
+	"es" "SI NO FUERAS ADMIN YA HABRIAS SIDO BANEADO AUTOMATICAMENTE! DEBERIAS SABER LAS REGLAS DEL JUEGO SI SOS ADMIN! ):<"
+	}
+
+	"NOBODY CAN SEE WHAT YOU WROTE" 
+	{
+	"en" "NOBODY CAN SEE WHAT YOU WROTE EXCEPTING FOR YOU"
+	"es" "NAIDE PUEDE VER QUE ESCRIBISTE ESTO EXCEPTO VOS"
+	}
+
+	"BAN - impostor kill/hurt impostor chat msg" 
+	{
+	"en" "You have been banned for killing or hurting too many impostors being an impostor."
+	"es" "Has sido baneado por matar o lastimar demasiados impostores siendo impostor."
+	}
+
+	"BAN - impostor kill/hurt impostor msg" 
+	{
+	"en" "Reason: killing or hurting too many impostors being an impostor."
+	"es" "Razon: matar o lastimar demasiados impostores siendo impostor."
+	}
+
+	"ACCES DENIED - Impostors only chat" 
+	{
+	"en" "ONLY ALIVE IMPOSTORS CAN USE TEAM CHAT."
+	"es" "SOLO LOS IMPOSTORES QUE ESTEN VIVOS PUEDEN USAR EL CHAT DE EQUIPO."
+	}
+
+	"SPECIAL ADMIN MESSAGE" 
+	{
+	"en" "EVERYONE WILL BE ABLE TO SEE THE FOLLOWING JUST BECAUSE YOU ARE AN ADMIN:"
+	"es" "TODOS VAN A PODER VER LO SIGUIENTE SOLAMENTE PORQUE SOS ADMIN:"
+	}
+
+	"Deactivated team chat" 
+	{
+	"en" "Team chat is disabled (for both impostors and innocents)."
+	"es" "El chat de equipo esta desactivado (tanto para impostores como para inocentes)."
+	}
+
+	"Command is in-game only" 
+	{
+	"en" "Command is in-game only."
+	"es" "El comando solo se puede ejecutar al estar en el juego."
+	}
+
+	"Round info menu display" 
+	{
+	"en" "Round information"
+	"es" "Informacion de la ronda"
+	}
+
+	"Amount of initial impostors" 
+	{
+	"en" "Initial amount of impostors: "
+	"es" "Cantidad de impostores inicial: "
+	}
+
+	"Initial number of hostages they must kill" 
+	{
+	"en" "Initial number of hostages they must kill: "
+	"es" "Cantidad de rehenes que ellos deberan matar inicial: "
+	}
+
+	"Initial hostage health amount" 
+	{
+	"en" "Initial quantity of hostages health: "
+	"es" "Cantidad de vida inicial de los rehenes: "
+	}
+
+	"Initial number of hostages on the map" 
+	{
+	"en" "Initial number of hostages on the map: "
+	"es" "Cantidad de rehenes en el mapa inicial: "
+	}
+
+	"Initial amount of players in the round" 
+	{
+	"en" "Initial amount of players in the round: "
+	"es" "Cantidad de jugadores inicial en esta ronda: "
+	}
+
+	"Command !info disabled" 
+	{
+	"en" "Command !info is disabled for all players."
+	"es" "El comando !info esta desactivado para todos los jugadores."
+	}
+
+	"TTT RULES MENU TITLE" 
+	{
+	"en" "TTT RULES"
+	"es" "REGLAS DE TTT"
+	}
+
+	"Game mode rules" 
+	{
+	"en" "Game mode rules"
+	"es" "Reglas del modo de juego"
+	}
+
+	"Useful chat commands" 
+	{
+	"en" "Useful chat commands"
+	"es" "Comandos del chat utiles"
+	}
+
+	"GAME MODE RULES" 
+	{
+	"en" "GAME MODE RULES"	
+	"es" "REGLAS DEL MODO DE JUEGO"
+	}
+
+	"GAME MODE RULES - LINE 1" 
+	{ 
+	"en" "Some random players are impostors. They must manage to kill a" 
+	"es" "Algunos jugadores aleatorios son impostores. Los mismos" 
+	}
+
+	"GAME MODE RULES - LINE 2" 
+	{ 
+	"en" "certain number of hostages before round time ends without" 
+	"es" "deberan conseguir matar cierta cantidad de rehenes antes de" 
+	}
+
+	"GAME MODE RULES - LINE 3" 
+	{ 
+	"en" "being discovered and killed. The innocent must protect the" 
+	"es" "que el tiempo de la ronda termine sin ser descubiertos y" 
+	}
+
+	"GAME MODE RULES - LINE 4" 
+	{ 
+	"en" "hostages at all times to prevent the impostors from" 
+	"es" "asesinados. Los inocentes deberan proteger a los rehenes" 
+	}
+
+	"GAME MODE RULES - LINE 5" 
+	{ 
+	"en" "managing to eliminate enough hostages before roundtime ends." 
+	"es" "en todo momento para evitar que los impostores logren eliminar" 
+	}
+
+	"GAME MODE RULES - LINE 6" 
+	{ 
+	"en" " " 
+	"es" "la cantidad suficiente de rehenes antes de que termine el" 
+	}
+
+	"GAME MODE RULES - LINE 7" 
+	{ 
+	"en" "Nobody knows who are those impostors except themselves." 
+	"es" "tiempo de la ronda." 
+	}
+	
+	"GAME MODE RULES - LINE 8" 
+	{ 
+	"en" " " 
+	"es" "Nadie sabe quienes son esos impostores excepto ellos mismos." 
+	}
+
+	"Back menu" 
+	{
+	"en" "Previous section."
+	"es" "Seccion anterior."
+	}
+
+	"USEFUL CHAT COMMANDS" 
+	{
+	"en" "USEFUL CHAT COMMANDS"
+	"es" "COMANDOS DEL CHAT UTILES"
+	}
+
+	"USEFUL CHAT COMMANDS - LINE 1" 
+	{ 
+	"en" "The following commands will be executed when you write" 
+	"es" "Los siguientes comandos seran ejecutados al escribirlos" 
+	}
+
+	"USEFUL CHAT COMMANDS - LINE 2" 
+	{ 
+	"en" "them in server's chat:" 
+	"es" "en el chat del server:" 
+	}
+
+	"USEFUL CHAT COMMANDS - LINE 3" 
+	{ 
+	"en" "   -!info: to see the amount of impostors, hostages," 
+	"es" "   -!info: para ver cantidades de impostores, rehenes," 
+	}
+
+	"USEFUL CHAT COMMANDS - LINE 4" 
+	{ 
+	"en" "    hostages health and more." 
+	"es" "    vida de los rehenes y demas." 
+	}
+
+	"USEFUL CHAT COMMANDS - LINE 5" 
+	{ 
+	"en" "   -!impostors: to see which players are the impostors," 
+	"es" "   -!impostors: para ver que jugadores son los impostores," 
+	}
+
+	"USEFUL CHAT COMMANDS - LINE 6" 
+	{ 
+	"en" "    it can only be used while being an impostor or being dead." 
+	"es" "    solo se puede usar siendo impostor o estando muerto." 
+	}
+
+	"USEFUL CHAT COMMANDS - LINE 7" 
+	{ 
+	"en" "   -Team-chat: Impostors can use it to communicate with each" 
+	"es" "   -Chat de equipo: Los impostores pueden usarlo para" 
+	}
+
+	"USEFUL CHAT COMMANDS - LINE 8" 
+	{ 
+	"en" "    other without others being able to see what they write." 
+	"es" "    comunicarse entre si sin que los demas puedan ver" 
+	}
+
+	"USEFUL CHAT COMMANDS - LINE 9" 
+	{ 
+	"en" " " 
+	"es" "    lo que escriben." 
+	}
+
+	"YOU ARE AN INNOCENT" 
+	{
+	"en" "YOU ARE AN INNOCENT, YOU MUST KILL THE IMPOSToRS"
+	"es" "ERES INOCENTE, DEBES ELIMINAR A LOS IMPOSTORES"
+	}
+
+	"BEFORE THEY KILL ENOUGH HOSTAGES!" 
+	{
+	"en" "BEFORE THEY KILL ENOUGH HOSTAGES!"
+	"es" "ANTES DE QUE MATEN SUFICIENTES REHENES!"
+	}
+
+	"YOU ARE AN INNOCENT 2!" 
+	{
+	"en" "YOU ARE AN INNOCENT, YOU MUST KILL THE IMPOSTORS BEFORE THEY KILL ENOUGH HOSTAGES!"
+	"es" "ERES INOCENTE, DEBES ELIMINAR A LOS IMPOSTORES ANTES DE QUE MATEN SUFICIENTES REHENES!"
+	}
+
+	"YOU ARE AN INNOCENT 3!" 
+	{
+	"en" "YOU ARE AN INNOCENT; YOU MUST FIND OUT WHO ARE THE IMPOSTORS AND PREVENT THEM FROM KILLING ENOUGH HOSTAGES BEFORE TIME IS UP!"
+	"es" "ERES INOCENTE; DEBES DESCUBRIR QUIENES SON LOS IMPOSTORES Y IMPEDIR QUE MATEN SUFICIENTES REHENES ANTES DE QUE SE ACABE EL TIEMPO!"
+	}
+
+	"YOU ARE AN IMPOSToR" 
+	{
+	"en" "YOU ARE AN IMPOSTOR; YOU MUST KILL HOSTAGES WITHOUT BEING DISCOVERED!"
+	"es" "ERES IMPOSTOR; DEBES ELIMINAR A LOS REHENES SIN QUE LOS DESCUBRAN!"
+	}
+
+	"YOU ARE AN IMPOSToR 2!" 
+	{
+	"en" "TO SEE WHO ARE ALL THE IMPOSTORS THAT ARE IN YOUR TEAM YOU CAN DO IT BY WRITING" 
+	"es" "PARA VER QUIENES SON TODOS LOS IMPOSTORES QUE SE ENCUENTRAN EN TU EQUIPO PODES HACERLO ESCRIBIENDO" 
+	}
+
+	"YOU ARE AN IMPOSToR 3!" 
+	{
+	"en" "IN THE CHAT!"
+	"es" "EN EL CHAT!"
+	}
+
+	"You should kill" 
+	{
+	"en" "You must kill " 
+	"es" "Deben eliminar " 
+	}
+
+	"before time is up" 
+	{
+	"en" " hostages before time is up!" 
+	"es" " rehenes antes de que se acabe el tiempo!" 
+	}
+
+	"You should kill 2" 
+	{
+	"en" "You must eliminate a certain number of hostages before time runs out!" 
+	"es" "Deben eliminar cierta cantidad de rehenes antes de que se acabe el tiempo!" 
+	}
+
+	"Your color is" 
+	{
+	"en" "Your color is " 
+	"es" "Tu color es el " 
+	}
+
+	"Can't spawn" 
+	{
+	"en" "You will spawn in the next round." 
+	"es" "Apareceras en la siguiente ronda." 
+	}
+
+	"Enough players to start" 
+	{
+	"en" "There already are enough players to start!" 
+	"es" "Ya hay suficientes jugadores para iniciar!" 
+	}
+
+	"Disconnected and wan an impostor" 
+	{
+	"en" " disconnected and was an impostor!" 
+	"es" " se desconecto y era un impostor!" 
+	}
+
+	"You don't have to hurt hostages!" 
+	{
+	"en" "You don't have to hurt the hostages, you have to protect them!!! @:<" 
+	"es" "No tenes que herir a los rehenes, tenes que protegerlos!!! @:<" 
+	}
+
+	"BAN - innocent kill/hurt hostage chat msg" 
+	{
+	"en" "You have been banned for killing or hurting too many hostages being an innocent."
+	"es" "Has sido baneado por matar o lastimar demasiados rehenes siendo inocente."
+	}
+	
+	"BAN - innocent kill/hurt hostage msg" 
+	{
+	"en" "Reason: killing or hurting too many hostages being an innocent."
+	"es" "Razon: Matar o lastimar demasiados rehenes siendo inocente."
+	}
+
+	"You are silenced" 
+	{
+	"en" "You are muted, your mic will be reactivated at the beginning of the next round."
+	"es" "Estas silenciado, se reactivara tu microfono al iniciar la siguiente ronda."
+	}
+
+	"You aren't silenced because you are an admin" 
+	{
+	"en" "YOU ARE NOT SILENCED BY BEING ADMIN, BUT IF YOU WEREN'T, YOU WOULD BE."
+	"es" "NO ESTAS SILENCIADO POR SER ADMIN, PERO SI NO LO FUERAS LO ESTARIAS."
+	}
+
+	"Was an impostor!" 
+	{
+	"en" " was an impostor!"
+	"es" " era un impostor!"
+	}
+
+	"Well done 1" 
+	{
+	"en" " Well done, there are only " 
+	"es" " Bien hecho, solo te quedan " 
+	}
+
+	"Well done 2" 
+	{
+	"en" " left to kill!" 
+	"es" " por eliminar!" 
+	}
+
+	"Enought hostages deleted!" 
+	{
+	"en" "There have been enought hostages deleted!"
+	"es" "Ya fueron eliminados los rehenes necesarios!"
+	}
+
+	"Impostors menu title" 
+	{
+	"en" "The impostors are:"
+	"es" "Los impostores son:"
+	}
+
+	"You can't use impostors command 0" 
+	{
+	"en" "Only dead admins will be able to use this command."
+	"es" "Solo los admins que esten muertos podran usar este comando."
+	}
+
+	"You can't use impostors command 1" 
+	{
+	"en" "You have to be dead to use this command."
+	"es" "Tenes que estar muerto para poder usar este comando."
+	}
+
+	"You can't use impostors command 2" 
+	{
+	"en" "Only impostors can use this command."
+	"es" "Solo los impostores pueden usar este comando."
+	}
+
+	"You can't use impostors command 3" 
+	{
+	"en" "You have to be dead or be an impostor to use this command."
+	"es" "Tenes que estar muerto o ser un impostor para poder usar este comando."
+	}
+
+	"The impostors were:" 
+	{
+	"en" "The impostors were:"
+	"es" "Los impostores eran:"
+	}
+
+	"BAN - You will be able to play again in" 
+	{
+	"en" " You will be able to play again in: " 
+	"es" " Podras volver a jugar en: " 
+	}
+
+	"BAN - minutes" 
+	{
+	"en" " minutes." 
+	"es" " minutos." 
+	}
+
+	"BAN - player has been banned automatically by" 
+	{
+	"en" " has been automatically banned for " 
+	"es" " ha sido baneado automaticamente por " 
+	}
+
+	"red" 
+	{
+	"en" "red" 
+	"es" "rojo" 
+	}
+
+	"blue" 
+	{
+	"en" "blue" 
+	"es" "azul" 
+	}
+
+	"green" 
+	{
+	"en" "green" 
+	"es" "verde" 
+	}
+
+	"yellow" 
+	{
+	"en" "yellow" 
+	"es" "amarillo" 
+	}
+
+	"pink" 
+	{
+	"en" "pink" 
+	"es" "rosa" 
+	}
+
+	"orange" 
+	{
+	"en" "orange" 
+	"es" "naranja" 
+	}
+
+	"black" 
+	{
+	"en" "black" 
+	"es" "negro" 
+	}
+
+	"light blue" 
+	{
+	"en" "light blue" 
+	"es" "celeste" 
+	}
+
+	"brown" 
+	{
+	"en" "brown" 
+	"es" "marron" 
+	}
+
+	"light green" 
+	{
+	"en" "light green" 
+	"es" "verde claro" 
+	}
+
+	"purple" 
+	{
+	"en" "purple" 
+	"es" "violeta" 
+	}
+
+	"lime" 
+	{
+	"en" "lime" 
+	"es" "lima" 
+	}
+
+	"red brown" 
+	{
+	"en" "red brown" 
+	"es" "rojo marron" 
+	}
+
+	"green brown" 
+	{
+	"en" "green brown" 
+	"es" "verde marron" 
+	}
+
+	"grey" 
+	{
+	"en" "grey" 
+	"es" "gris" 
+	}
+
+	"white" 
+	{
+	"en" "white" 
+	"es" "blanco" 
+	}
+
+	"dark green" 
+	{
+	"en" "dark green" 
+	"es" "verde oscuro" 
+	}
+
+	"light orange" 
+	{
+	"en" "light orange" 
+	"es" "naranja claro"
+	}
+
+	"dark purple" 
+	{
+	"en" "dark purple" 
+	"es" "violeta oscuro" 
+	}
+
+	"apple dark green" 
+	{
+	"en" "apple dark green" 
+	"es" "verde manzana oscuro" 
+	}
+
+	"light red" 
+	{
+	"en" "light red" 
+	"es" "rojo claro" 
+	}
+
+	"light yellow" 
+	{
+	"en" "light yellow" 
+	"es" "amarillo claro" 
+	}
+
+	"strong pink" 
+	{
+	"en" "strong pink" 
+	"es" "rosa fuerte" 
+	}
+
+	"bronze" 
+	{
+	"en" "bronze" 
+	"es" "bronce" 
+	}
+
+	"grey light blue" 
+	{
+	"en" "grey light blue" 
+	"es" "celeste gris" 
+	}
+
+	"water green" 
+	{
+	"en" "water green" 
+	"es" "verde agua" 
+	}
+
+	"light purple" 
+	{
+	"en" "light purple" 
+	"es" "violeta claro" 
+	}
+
+	"light bronze" 
+	{
+	"en" "light bronze" 
+	"es" "bronce claro" 
+	}
+
+	"brownie purple" 
+	{
+	"en" "brownie purple" 
+	"es" "marron morado" 
+	}
+
+	"strong water green" 
+	{
+	"en" "strong water green" 
+	"es" "verde agua fuerte" 
+	}
+
+	"dark light blue" 
+	{
+	"en" "dark light blue" 
+	"es" "celeste oscuro" 
+	}
+
+	"light pink" 
+	{
+	"en" "light pink" 
+	"es" "rosa claro" 
+	}
+}
