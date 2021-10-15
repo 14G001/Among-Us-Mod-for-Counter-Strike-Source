@@ -1,6 +1,4 @@
 <p align="center"> <img src="https://images.gamebanana.com/img/ss/tools/600bb714b68b9.jpg"> <p align="center">
-  
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
 # TTT (AMONG US VERSION) FOR Counter-Strike: Source 2021 
 
@@ -27,14 +25,14 @@ Impostors will be every round different players and assigned in a random way, bu
 
 
 
--Capacity to configure the health of the hostages, number of hostages on the map (can be any number), number of hostages that must be killed by the impostors and number of impostors depending on the number of players in the game from the following text file: "cstrike/addons/sourcemod/configs/ttt/ttt_configs_per_player_quantity.txt". For example: From 0 to 4 players there are 2 impostors, 3 hostages and the hostages have 150 health, from 5 to 8 the hostages have 200 health, there are 3 impostors, . . .
+- Capacity to configure the health of the hostages, number of hostages on the map (can be any number), number of hostages that must be killed by the impostors and number of impostors depending on the number of players in the game from the following text file: "cstrike/addons/sourcemod/configs/ttt/ttt_configs_per_player_quantity.txt". For example: From 0 to 4 players there are 2 impostors, 3 hostages and the hostages have 150 health, from 5 to 8 the hostages have 200 health, there are 3 impostors, . . .
 
--Coordinates where the hostages can spawn on the maps in text files (modifiable, capacity to add up to 125 hostage spawns and if the plugin code is recompiled by modifying only one variable, even more spawns than 125 can be added) at the adress:
+- Coordinates where the hostages can spawn on the maps in text files (modifiable, capacity to add up to 125 hostage spawns and if the plugin code is recompiled by modifying only one variable, even more spawns than 125 can be added) at the adress:
 "cstrike/addons/sourcemod/configs/ttt/hostage_spawnpoints/<MAP_NAME>.txt".
 To add coordinates write cl_showpos 1 in the game console and copy the values.
 To remove them simply remove the coordinate from the text file (which would represent a line of it) IMPORTANT: Don't add a hostage spawn in the same place where there is a player spawn (T or CT) that could obstruct the spawn because otherwise It will crash the server or break when spawning a player in that position (MORE DETAILED EXPLANATION OF HOW TO ADD HOSTAGE SPAWNS BELOW).
 
--Up to 32 different PLAYER COLORS to be able to easily identify the players that are assigned automatically and can't be repeated in the players unless the number of players on the server at that time is more than 32 players (but the color can't repeat more than two times).
+- Up to 32 different PLAYER COLORS to be able to easily identify the players that are assigned automatically and can't be repeated in the players unless the number of players on the server at that time is more than 32 players (but the color can't repeat more than two times).
 
 -Capacity for making dead players talk to each other without the alive players seeing what they write (when they die, they will not be able to talk through the microphone with other players either) (If the sm_ttt_dead_players_mute command value is 1, it is 1 by default).
 
