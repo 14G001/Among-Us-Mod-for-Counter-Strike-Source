@@ -86,7 +86,7 @@ IT IS NOT RECOMMENDED UNLESS THE SERVER ADMINS ARE ACTIVE, RELIABLE AND KNOW THE
 
 -
 
-##CONFIGURATIONS PER NUMBER OF PLAYERS AND HOSTAGE SPAWNS:
+## CONFIGURATIONS PER NUMBER OF PLAYERS AND HOSTAGE SPAWNS:
 
 
 To add or remove configurations per number of players (from 5 to 8 players there are 3 imposters for example, that type of configuration), you have to go to the following file: cstrike/addons/sourcemod/configs/ttt/ttt_configs_per_player_quantity.txt.
@@ -133,7 +133,7 @@ To add or remove configurations per number of players (from 5 to 8 players there
 
 -
 
-##EDIT THE HOSTAGE SPAWNS CONFIGURATIONS:
+## EDIT THE HOSTAGE SPAWNS CONFIGURATIONS:
 
 
 
@@ -188,7 +188,7 @@ RECOMMENDATION: DO IT BY TAKING SCREENSHOTS, FOR EXAMPLE IN dust2 AND PASTING TH
 AND THEN ADD ALL THE CONFIGURATIONS TO THE TEXT FILE (de_dust2.txt in this example).
 
 
-#COMMANDS / CONVARS:
+# COMMANDS / CONVARS:
 
 sm_ttt_overlay_impostors = Path to overlay material file to show to impostors.
 (Default: "overlays/ttt/impostors_overlay").
@@ -246,7 +246,7 @@ sm_ttt_scoreboard_player_alive_check = Players can see if the other players are 
 
 
 
-###INSTALLATION INSTRUCTIONS
+### INSTALLATION INSTRUCTIONS
 
 
 1- Download sm_ttt.zip file.
@@ -257,6 +257,6 @@ sm_ttt_scoreboard_player_alive_check = Players can see if the other players are 
 
 4- Once you are on the cstrike folder, open sm_ttt.zip file and copy and paste (or drag and drop) its files to the cstrike folder.
 
-####YOU WILL HAVE TO ADD MATERIALS FILES IN YOUR FTP SERVER.
+#### YOU WILL HAVE TO ADD MATERIALS FILES IN YOUR FTP SERVER.
 
-##Enjoy! :D
+## Enjoy! :D
