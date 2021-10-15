@@ -70,15 +70,15 @@ To remove them simply remove the coordinate from the text file (which would repr
 ## CONFIGURATION OF THE SPECIAL BAN SYSTEM:
 
 
-####-BANNING FOR BEING AN INNOCENT AND HURTING INNOCENTS (sm_ttt_ban_innocent_hurt_innocent): It works as follows: If the value of this command is 200 (very low value but I only use it for the example), an innocent person should kill 2 innocents or cause 200 damage to other innocents by being innocent to be banned. This is the only command that would make sense to disable because an innocent can't know if he's attacking an innocent or an imposter.
+#### -BANNING FOR BEING AN INNOCENT AND HURTING INNOCENTS (sm_ttt_ban_innocent_hurt_innocent): It works as follows: If the value of this command is 200 (very low value but I only use it for the example), an innocent person should kill 2 innocents or cause 200 damage to other innocents by being innocent to be banned. This is the only command that would make sense to disable because an innocent can't know if he's attacking an innocent or an imposter.
 
-####-BANNING FOR BEING AN IMPOSTOR AND HURTING IMPOSTORS
+#### -BANNING FOR BEING AN IMPOSTOR AND HURTING IMPOSTORS
 (sm_ttt_ban_impostor_hurt_impostor): It works the same as the previous one but for being an impostor and injuring or killing impostors. It isn't recommended to disable it because this would be most caused intentionally or by not knowing the rules.
 
-####-BANNING FOR BEING INNOCENT AND HURTING HOSTAGES
+#### -BANNING FOR BEING INNOCENT AND HURTING HOSTAGES
 (sm_ttt_ban_innocent_hostage_hurt): If, for example, the value of the command is 8, an innocent would have to injure a hostage 8 times or kill 3 hostages to be banned. For every time an innocent kills a hostage he will be taken as if he had injured 3 hostages. It isn't recommended to disable it because this would be most caused intentionally or by not knowing the rules.
 
-####-BAN TIME IN MINUTES (sm_ttt_ban_time): The value of this command will determine the number of minutes that a player will be banned when committing any of the actions mentioned before.
+#### -BAN TIME IN MINUTES (sm_ttt_ban_time): The value of this command will determine the number of minutes that a player will be banned when committing any of the actions mentioned before.
 
 To DISABLE THE AUTOMATIC BAN SYSTEM OF THE MOD, leave the following convars at 0:
 sm_ttt_ban_innocent_hostage_hurt, sm_ttt_ban_impostor_hurt_impostor, sm_ttt_ban_innocent_hurt_innocent.
