@@ -2,8 +2,8 @@
 
 <p align="center"> <img src="https://images.gamebanana.com/img/ss/tools/600bb714b68b9.jpg"> <p align="center">
 
-- ### [In-Game images](https://gamebanana.com/tools/6942)
-- ### [BLOG](https://forums.alliedmods.net/showthread.php?p=2733682/sm_ttt.sp)
+### + [In-Game images](https://gamebanana.com/tools/6942)
+### + [BLOG](https://forums.alliedmods.net/showthread.php?p=2733682/sm_ttt.sp)
 
 
 ### GAME MODE (the following explanation is about the game mode that comes by default, it can be configured in a way that make the game mode change in certain aspects):
