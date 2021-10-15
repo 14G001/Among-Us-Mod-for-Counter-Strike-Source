@@ -1,17 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=windows-1252"/>
-	<title></title>
-	<meta name="generator" content="LibreOffice 7.1.2.2 (Windows)"/>
-	<meta name="created" content="00:00:00"/>
-	<meta name="changed" content="2021-10-15T04:00:37.923000000"/>
-	<style type="text/css">
-		@page { size: 8.5in 11in; margin: 0.79in }
-		p { margin-bottom: 0.1in; line-height: 115%; background: transparent }
-		a:link { color: #000080; so-language: zxx; text-decoration: underline }
-	</style>
-</head>
 <body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><p align="center" style="margin-bottom: 0in; font-variant: normal; letter-spacing: normal; line-height: 100%; orphans: 2; widows: 2; text-decoration: none">
 <body lang="es-AR" link="#000080" vlink="#800000" dir="ltr"><p align="center" style="margin-bottom: 0in; line-height: 100%">
 <font face="Meiryo, sans-serif"><u><b>  <img src="https://images.gamebanana.com/img/ss/tools/600bb714b68b9.jpg">  </b></u></font></p><p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
