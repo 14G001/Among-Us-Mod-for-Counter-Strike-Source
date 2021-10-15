@@ -70,7 +70,8 @@ To remove them simply remove the coordinate from the text file (which would repr
 ## CONFIGURATION OF THE SPECIAL BAN SYSTEM:
 
 
-### -BANNING FOR BEING AN INNOCENT AND HURTING INNOCENTS (sm_ttt_ban_innocent_hurt_innocent): It works as follows: If the value of this command is 200 (very low value but I only use it for the example), an innocent person should kill 2 innocents or cause 200 damage to other innocents by being innocent to be banned. This is the only command that would make sense to disable because an innocent can't know if he's attacking an innocent or an imposter.
+### -BANNING FOR BEING AN INNOCENT AND HURTING INNOCENTS (sm_ttt_ban_innocent_hurt_innocent):
+It works as follows: If the value of this command is 200 (very low value but I only use it for the example), an innocent person should kill 2 innocents or cause 200 damage to other innocents by being innocent to be banned. This is the only command that would make sense to disable because an innocent can't know if he's attacking an innocent or an imposter.
 
 ### -BANNING FOR BEING AN IMPOSTOR AND HURTING IMPOSTORS
 (sm_ttt_ban_impostor_hurt_impostor): It works the same as the previous one but for being an impostor and injuring or killing impostors. It isn't recommended to disable it because this would be most caused intentionally or by not knowing the rules.
