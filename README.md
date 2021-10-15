@@ -1,4 +1,6 @@
 <p align="center"> <img src="https://images.gamebanana.com/img/ss/tools/600bb714b68b9.jpg"> <p align="center">
+  
+![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
 # TTT (AMONG US VERSION) FOR Counter-Strike: Source 2021 
 
