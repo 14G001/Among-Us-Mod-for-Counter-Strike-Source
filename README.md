@@ -6,7 +6,7 @@ In-Game images here: https://gamebanana.com/tools/6942
 BLOG:  https://forums.alliedmods.net/showthread.php?p=2733682/sm_ttt.sp
 
 
-####GAME MODE (the following explanation is about the game mode that comes by default, it can be configured in a way that make the game mode change in certain aspects):
+#### GAME MODE (the following explanation is about the game mode that comes by default, it can be configured in a way that make the game mode change in certain aspects):
 
 
 
@@ -19,9 +19,9 @@ Impostors will be every round different players and assigned in a random way, bu
 
 
 
--
+|
 
-#PLUGIN INCLUDES:
+# PLUGIN INCLUDES:
 
 
 
@@ -34,43 +34,43 @@ To remove them simply remove the coordinate from the text file (which would repr
 
 - Up to 32 different PLAYER COLORS to be able to easily identify the players that are assigned automatically and can't be repeated in the players unless the number of players on the server at that time is more than 32 players (but the color can't repeat more than two times).
 
--Capacity for making dead players talk to each other without the alive players seeing what they write (when they die, they will not be able to talk through the microphone with other players either) (If the sm_ttt_dead_players_mute command value is 1, it is 1 by default).
+- Capacity for making dead players talk to each other without the alive players seeing what they write (when they die, they will not be able to talk through the microphone with other players either) (If the sm_ttt_dead_players_mute command value is 1, it is 1 by default).
 
 -Capacity to change the way of randomization to choose impostors (allow there to be an impostor that was in the previous round or not, random amount of impostors or not, etc).
 
--SPECIAL AUTO-BAN SYSTEM to prevent players from playing badly when there are no admins on server, configurable and deactivatable (with the following commands: sm_ttt_ban_innocent_hostage_hurt, sm_ttt_ban_impostor_hurt_impostor, sm_ttt_ban_innocent_hurt_innocent, sm_ttt_ban_time).
+- SPECIAL AUTO-BAN SYSTEM to prevent players from playing badly when there are no admins on server, configurable and deactivatable (with the following commands: sm_ttt_ban_innocent_hostage_hurt, sm_ttt_ban_impostor_hurt_impostor, sm_ttt_ban_innocent_hurt_innocent, sm_ttt_ban_time).
 
--Capacity to make alive players unable to hear shots of other players so that it is more difficult for the innocent to discover the impostors (by default it is disabled so by default players can hear other players shots) (with the command sm_ttt_weapon_sounds).
+- Capacity to make alive players unable to hear shots of other players so that it is more difficult for the innocent to discover the impostors (by default it is disabled so by default players can hear other players shots) (with the command sm_ttt_weapon_sounds).
 
--Special chat from which only the impostors can communicate to plan who they will kill (sm_ttt_impostors_only_chat).
+- Special chat from which only the impostors can communicate to plan who they will kill (sm_ttt_impostors_only_chat).
 
--Techniques to prevent players from seeing the minimap, see which players are alive or dead (when using tab to see the scores), which players die, etc (unless they witness the act with their own user).
+- Techniques to prevent players from seeing the minimap, see which players are alive or dead (when using tab to see the scores), which players die, etc (unless they witness the act with their own user).
 
--Players can see the number of impostors at the beginning of the round, number of hostages at the beginning of the round, number of hostages health, number of hostages that must be eliminated for the impostors to win, number of players there start the game, etc. with the !info command (You can prevent them from seeing this if the sm_ttt_command_info command is changed to 0, by default it is 1).
+- Players can see the number of impostors at the beginning of the round, number of hostages at the beginning of the round, number of hostages health, number of hostages that must be eliminated for the impostors to win, number of players there start the game, etc. with the !info command (You can prevent them from seeing this if the sm_ttt_command_info command is changed to 0, by default it is 1).
 
--Capacity to exclude admins from being banned or muted automatically (with the sm_ttt_ban_admins and sm_ttt_mute_admins commands).
+- Capacity to exclude admins from being banned or muted automatically (with the sm_ttt_ban_admins and sm_ttt_mute_admins commands).
 
--Capacity to make hostages always spawn in random positions or always in the same ones (everytime the number of players don't change in the second case) (with the sm_ttt_hostage_random_spawn command).
+- Capacity to make hostages always spawn in random positions or always in the same ones (everytime the number of players don't change in the second case) (with the sm_ttt_hostage_random_spawn command).
 
--Capacity to check if you are satisfied with the hostages spawns or you would like to modify them (when using it, all the hostages will be spawned in all the positions that are in the hostage spawns configuration file), for this you have to use the command sm_ttt_show_every_hostage_spawn. When using it, all the hostages that may exist will always be spawned according to the configuration file with hostage spawns of the current map in game. To make it work, once the command is activated, the round must be finished to be able to see all the spawns (THIS COMMAND WILL ONLY BE USEFUL WHEN THE SERVER IS CONFIGURING; IT IS NOT TO BE USED WHEN THE SERVER IS ONLINE).
+- Capacity to check if you are satisfied with the hostages spawns or you would like to modify them (when using it, all the hostages will be spawned in all the positions that are in the hostage spawns configuration file), for this you have to use the command sm_ttt_show_every_hostage_spawn. When using it, all the hostages that may exist will always be spawned according to the configuration file with hostage spawns of the current map in game. To make it work, once the command is activated, the round must be finished to be able to see all the spawns (THIS COMMAND WILL ONLY BE USEFUL WHEN THE SERVER IS CONFIGURING; IT IS NOT TO BE USED WHEN THE SERVER IS ONLINE).
 
--Command !tttrules that will allow players who don't know the rules to see the rules by writing it and the capacity to get a message from time to time that warns the player that it can be used (The repetition of the message is disabled if sm_ttt_rules_advice_repeat_time is 0, by default is 60). To change the settings this has to be done at the beginning of the round (it can be done with the map.cfg plugin surely).
+- Command !tttrules that will allow players who don't know the rules to see the rules by writing it and the capacity to get a message from time to time that warns the player that it can be used (The repetition of the message is disabled if sm_ttt_rules_advice_repeat_time is 0, by default is 60). To change the settings this has to be done at the beginning of the round (it can be done with the map.cfg plugin surely).
 
--Command !impostors that allows impostors to see who the other impostors are (it may work differently if the sm_ttt_command_imposters command wasn't 2).
+- Command !impostors that allows impostors to see who the other impostors are (it may work differently if the sm_ttt_command_imposters command wasn't 2).
 
--Capacity to modify the amount of money and score (number of player kills that can be seen when using tab) that players get when winning the games.
+- Capacity to modify the amount of money and score (number of player kills that can be seen when using tab) that players get when winning the games.
 
--Translations until now: in English and Spanish.
+- Translations until now: in English and Spanish.
 
--Maps with hostage spawn settings that come with the plugin until now: cs_assault, cs_compound, cs_italy, cs_militia, cs_office, cs_parkhouse, de_aztec, de_catalane_b6, de_chateau, de_dust, de_dust2, de_inferno, de_NewPortBeach, de_nightfever, de_nuke, de_piranesi, de_port, de_prodigy, de_rats_rc_1337v4, de_rush, de_season, de_thematrix_11, de_train, de_tropic_enhanced, de_wanda, de_westwood_2010, mg_smee_tower, mg_smee_tower_fix, mg_smee_tower_fix2, mg_tv_tower_v5, surf_buzzkill, surf_buzzkill2, surf_Swift.
+- Maps with hostage spawn settings that come with the plugin until now: cs_assault, cs_compound, cs_italy, cs_militia, cs_office, cs_parkhouse, de_aztec, de_catalane_b6, de_chateau, de_dust, de_dust2, de_inferno, de_NewPortBeach, de_nightfever, de_nuke, de_piranesi, de_port, de_prodigy, de_rats_rc_1337v4, de_rush, de_season, de_thematrix_11, de_train, de_tropic_enhanced, de_wanda, de_westwood_2010, mg_smee_tower, mg_smee_tower_fix, mg_smee_tower_fix2, mg_tv_tower_v5, surf_buzzkill, surf_buzzkill2, surf_Swift.
 
 
--
+|
 
 ## CONFIGURATION OF THE SPECIAL BAN SYSTEM:
 
 
-BANNING FOR BEING AN INNOCENT AND HURTING INNOCENTS (sm_ttt_ban_innocent_hurt_innocent): It works as follows: If the value of this command is 200 (very low value but I only use it for the example), an innocent person should kill 2 innocents or cause 200 damage to other innocents by being innocent to be banned. This is the only command that would make sense to disable because an innocent can't know if he's attacking an innocent or an imposter.
+####-BANNING FOR BEING AN INNOCENT AND HURTING INNOCENTS (sm_ttt_ban_innocent_hurt_innocent): It works as follows: If the value of this command is 200 (very low value but I only use it for the example), an innocent person should kill 2 innocents or cause 200 damage to other innocents by being innocent to be banned. This is the only command that would make sense to disable because an innocent can't know if he's attacking an innocent or an imposter.
 
 ####-BANNING FOR BEING AN IMPOSTOR AND HURTING IMPOSTORS
 (sm_ttt_ban_impostor_hurt_impostor): It works the same as the previous one but for being an impostor and injuring or killing impostors. It isn't recommended to disable it because this would be most caused intentionally or by not knowing the rules.
@@ -84,7 +84,7 @@ To DISABLE THE AUTOMATIC BAN SYSTEM OF THE MOD, leave the following convars at 0
 sm_ttt_ban_innocent_hostage_hurt, sm_ttt_ban_impostor_hurt_impostor, sm_ttt_ban_innocent_hurt_innocent.
 IT IS NOT RECOMMENDED UNLESS THE SERVER ADMINS ARE ACTIVE, RELIABLE AND KNOW THE RULES, except for the sm_ttt_ban_innocent_hurt_innocent command that could be more logical than this at 0 due to the fact that innocents can't know if they are attacking an imposter or an innocent.
 
--
+|
 
 ## CONFIGURATIONS PER NUMBER OF PLAYERS AND HOSTAGE SPAWNS:
 
@@ -131,7 +131,7 @@ To add or remove configurations per number of players (from 5 to 8 players there
 
 
 
--
+|
 
 ## EDIT THE HOSTAGE SPAWNS CONFIGURATIONS:
 
@@ -177,7 +177,7 @@ And for each coordinate we would do the same by adding them below the one writte
 324 -39 . . .
 . . .
 
-####IMPORTANT:
+#### IMPORTANT:
 -Keep in mind that REAL NUMBERS CANNOT BE ADDED, ONLY THE INTEGER PART.
 -If we put a hostage spawn in a place where there's a T spawn, when spawning a T in that position, the server will crash due to an error. The same happens if it's a CT spawn. Make sure not to spawn positions where there are player spawns.
 
@@ -190,59 +190,59 @@ AND THEN ADD ALL THE CONFIGURATIONS TO THE TEXT FILE (de_dust2.txt in this examp
 
 # COMMANDS / CONVARS:
 
-sm_ttt_overlay_impostors = Path to overlay material file to show to impostors.
+- sm_ttt_overlay_impostors = Path to overlay material file to show to impostors.
 (Default: "overlays/ttt/impostors_overlay").
 
-sm_ttt_overlay_innocents = Path to overlay material file to show to innocents.
+- sm_ttt_overlay_innocents = Path to overlay material file to show to innocents.
 (Default: "overlays/ttt/innocents_overlay").
 
-sm_ttt_min_player_quantity = Minimum number of players to start the serious game. If it is 0 or less, the game starts with any number of players, even if they were very few (for example, it won't make sense to start the match with only 2 players in game). (Default: "4").
+- sm_ttt_min_player_quantity = Minimum number of players to start the serious game. If it is 0 or less, the game starts with any number of players, even if they were very few (for example, it won't make sense to start the match with only 2 players in game). (Default: "4").
 
-sm_ttt_dead_players_mute = If it is 1, the dead players CANNOT speak or write to alive players, only with other dead players, if it is 0, they can. (Default: "1").
+- sm_ttt_dead_players_mute = If it is 1, the dead players CANNOT speak or write to alive players, only with other dead players, if it is 0, they can. (Default: "1").
 
-sm_ttt_same_impostors = If it is 1, the impostors can be the same as in the previous round. If it is 0 they can't. If it is 2, the number of impostors is random (always less than half the total number of players). (Default: "1").
+- sm_ttt_same_impostors = If it is 1, the impostors can be the same as in the previous round. If it is 0 they can't. If it is 2, the number of impostors is random (always less than half the total number of players). (Default: "1").
 
-sm_ttt_say_if_was_an_impostor = Tell all players if the player who died was an imposter (If "1" tells, else don't). (Default: "1").
+- sm_ttt_say_if_was_an_impostor = Tell all players if the player who died was an imposter (If "1" tells, else don't). (Default: "1").
 
-sm_ttt_ban_innocent_hostage_hurt = Amount of times an innocent could injure a hostage until banned. If he kills him he counts as if he had hurt him 3 times. If it is 0 it is disabled).(Default: "11").
+- sm_ttt_ban_innocent_hostage_hurt = Amount of times an innocent could injure a hostage until banned. If he kills him he counts as if he had hurt him 3 times. If it is 0 it is disabled).(Default: "11").
 
-sm_ttt_ban_impostor_hurt_impostor = Amount of health that an impostor must take from an impostor to be banned (If it's 0 it's disabled). (Default: "300").
+- sm_ttt_ban_impostor_hurt_impostor = Amount of health that an impostor must take from an impostor to be banned (If it's 0 it's disabled). (Default: "300").
 
-sm_ttt_ban_innocent_hurt_innocent = Amount of health that an innocent should take from another innocent to be banned. If it is 0 it is disabled. (Default: "700").
+- sm_ttt_ban_innocent_hurt_innocent = Amount of health that an innocent should take from another innocent to be banned. If it is 0 it is disabled. (Default: "700").
 
-sm_ttt_ban_time = Number of minutes that a player will be banned in case of commenting on the indicated amount of inconsistencies. In case it is 0 the ban will be permanent. (Default: "20").
+- sm_ttt_ban_time = Number of minutes that a player will be banned in case of commenting on the indicated amount of inconsistencies. In case it is 0 the ban will be permanent. (Default: "20").
 
-sm_ttt_impostor_win_money = Amount of money that will be assigned to impostors if they win. (Default: "4000").
+- sm_ttt_impostor_win_money = Amount of money that will be assigned to impostors if they win. (Default: "4000").
 
-sm_ttt_innocent_win_money = Amount of money that will be assigned to the innocent if they win. (Default: "2000").
+- sm_ttt_innocent_win_money = Amount of money that will be assigned to the innocent if they win. (Default: "2000").
 
-sm_ttt_impostor_win_points = Amount of frags that will be assigned to impostors if they win. (Default: "3").
+- sm_ttt_impostor_win_points = Amount of frags that will be assigned to impostors if they win. (Default: "3").
 
-sm_ttt_innocent_win_points = Amount of frags that will be assigned to innocents if they win. (Default: "1").
+- sm_ttt_innocent_win_points = Amount of frags that will be assigned to innocents if they win. (Default: "1").
 
-sm_ttt_weapon_sounds = Allows or not the alive players, to hear the shots of the other players or not. If it is 0 the alive players will only be able to hear their own shots. If it's 1, everyone can listen. (Default: "1").
+- sm_ttt_weapon_sounds = Allows or not the alive players, to hear the shots of the other players or not. If it is 0 the alive players will only be able to hear their own shots. If it's 1, everyone can listen. (Default: "1").
 
-sm_ttt_impostors_only_chat = If enabled, imposters will be able to communicate with each other via team chat. (Default: "1").
+- sm_ttt_impostors_only_chat = If enabled, imposters will be able to communicate with each other via team chat. (Default: "1").
 
-sm_ttt_command_impostors = If 0, only dead admins will be able to use this command. If 1, only dead players will be able to use this command. If 2, only impostors will be able to use this command. If 3, only impostors and dead players will be able to use this command. Dead admins will allways be able to use this command. (Default: "2").
+- sm_ttt_command_impostors = If 0, only dead admins will be able to use this command. If 1, only dead players will be able to use this command. If 2, only impostors will be able to use this command. If 3, only impostors and dead players will be able to use this command. Dead admins will allways be able to use this command. (Default: "2").
 
-sm_ttt_command_info = If 0 nobody will be able to use this command. If 1 everyone will be able to use it. (Default: "1").
+- sm_ttt_command_info = If 0 nobody will be able to use this command. If 1 everyone will be able to use it. (Default: "1").
 
-sm_ttt_ban_admins = If 0 admins won't be automatically banned in case they break the limits. (Default: "1").
+- sm_ttt_ban_admins = If 0 admins won't be automatically banned in case they break the limits. (Default: "1").
 
-sm_ttt_mute_admins = If 0 admins won't be muted when they die. Admins will be able to use Team chat to communicate something to everybody. (Default: "1").
+- sm_ttt_mute_admins = If 0 admins won't be muted when they die. Admins will be able to use Team chat to communicate something to everybody. (Default: "1").
 
-sm_ttt_hostage_random_spawn = If 0, hostages allways spawn in the same positions. If 1 they spawn in rnadom positions. (Default: "1").
+- sm_ttt_hostage_random_spawn = If 0, hostages allways spawn in the same positions. If 1 they spawn in rnadom positions. (Default: "1").
 
-sm_ttt_show_every_hostage_spawn = THIS IS ONLY TO CHECK IF YOUR SPAWN CONFIGS ARE AS YOU IMAGINED IT OR IF YOU WANT TO MODIFY THEM. WHEN PLAYING WITH PEOPLE DISABLE IT. End round to see changes. To enable it 1 and to disable it and play normaly 0. (Default: "0").
+- sm_ttt_show_every_hostage_spawn = THIS IS ONLY TO CHECK IF YOUR SPAWN CONFIGS ARE AS YOU IMAGINED IT OR IF YOU WANT TO MODIFY THEM. WHEN PLAYING WITH PEOPLE DISABLE IT. End round to see changes. To enable it 1 and to disable it and play normaly 0. (Default: "0").
 
-sm_ttt_rules_advice_repeat_time = Time in seconds between rules message displays for all players. 0 to disable. (Default: "60").
+- sm_ttt_rules_advice_repeat_time = Time in seconds between rules message displays for all players. 0 to disable. (Default: "60").
 
-sm_ttt_scoreboard_player_alive_check = Players can see if the other players are alive or not with the scoreboard. (Default: "0").
+- sm_ttt_scoreboard_player_alive_check = Players can see if the other players are alive or not with the scoreboard. (Default: "0").
 
 
 
--
+|
 
 
 
