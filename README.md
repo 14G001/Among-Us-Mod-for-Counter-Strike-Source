@@ -1,6 +1,6 @@
-<p align="center"> <img src="https://images.gamebanana.com/img/ss/tools/600bb714b68b9.jpg"> <p align="center">
-
 # TTT (AMONG US VERSION) FOR Counter-Strike: Source 2021 
+
+<p align="center"> <img src="https://images.gamebanana.com/img/ss/tools/600bb714b68b9.jpg"> <p align="center">
 
 In-Game images here: https://gamebanana.com/tools/6942
 BLOG:  https://forums.alliedmods.net/showthread.php?p=2733682/sm_ttt.sp
