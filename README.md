@@ -4,7 +4,6 @@
 <body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><p align="center" style="margin-bottom: 0in; font-variant: normal; letter-spacing: normal; line-height: 100%; orphans: 2; widows: 2; text-decoration: none">
 <body lang="es-AR" link="#000080" vlink="#800000" dir="ltr"><p align="center" style="margin-bottom: 0in; line-height: 100%">
 <font face="Meiryo, sans-serif"><u><b>  <img src="https://images.gamebanana.com/img/ss/tools/600bb714b68b9.jpg">  </b></u></font></p><p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
-  <img src="TTT%20Mod%20Descripcion_html_2e4bb1e3882f76c1.jpg" name="Image1" align="bottom" width="507" height="282" border="0"/>
 </a>
 </font></p>
 <p style="margin-bottom: 0.2in; line-height: 100%; orphans: 2; widows: 2">
