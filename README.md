@@ -36,7 +36,7 @@ To remove them simply remove the coordinate from the text file (which would repr
 
 - Capacity for making dead players talk to each other without the alive players seeing what they write (when they die, they will not be able to talk through the microphone with other players either) (If the sm_ttt_dead_players_mute command value is 1, it is 1 by default).
 
--Capacity to change the way of randomization to choose impostors (allow there to be an impostor that was in the previous round or not, random amount of impostors or not, etc).
+- Capacity to change the way of randomization to choose impostors (allow there to be an impostor that was in the previous round or not, random amount of impostors or not, etc).
 
 - SPECIAL AUTO-BAN SYSTEM to prevent players from playing badly when there are no admins on server, configurable and deactivatable (with the following commands: sm_ttt_ban_innocent_hostage_hurt, sm_ttt_ban_impostor_hurt_impostor, sm_ttt_ban_innocent_hurt_innocent, sm_ttt_ban_time).
 
